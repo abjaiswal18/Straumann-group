@@ -1,0 +1,5 @@
+1. Dockerfile: Create a Dockerfile in your project's root directory. This file defines how to build a Docker image for your application. 
+2. Build the Docker Image: Run the following command in your project directory to build the Docker image:
+docker build -t your-application-image .
+3. Run the Docker Container: Once the image is built, we can run your application in a Docker container:
+docker run -p 8080:8080 your-application-image
